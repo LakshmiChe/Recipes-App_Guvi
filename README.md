@@ -78,9 +78,8 @@ The application will run on http://localhost:5000.
 API Endpoints
 
 6. Access the application:
-   - API endpoints: `http://localhost:5000/api/recipes`
-   - Landing Page: `http://localhost:5000`
-
+   - API endpoints: `https://recipes-app-guvi.vercel.app/api/recipes`
+   - Landing Page: `https://recipes-app-guvi.vercel.app/`
 ---
 
 ## API Documentation
