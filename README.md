@@ -77,6 +77,24 @@ The application will run on http://localhost:5000.
 
 API Endpoints
 
+6. Access the application:
+   - API endpoints: `http://localhost:5000/api/recipes`
+   - Landing Page: `http://localhost:5000`
+
+---
+
+## API Documentation
+
+| Method | Endpoint                 | Description                | Input Example                                                                 |
+|--------|--------------------------|----------------------------|------------------------------------------------------------------------------|
+| POST   | `/api/recipes`           | Create a new recipe        | `{ "title": "Pasta", "description": "Delicious", "ingredients": ["Flour"], "instructions": "Mix and cook." }` |
+| GET    | `/api/recipes`           | Retrieve all recipes       | -                                                                            |
+| GET    | `/api/recipes/:id`       | Retrieve a recipe by ID    | -                                                                            |
+| PUT    | `/api/recipes/:id`       | Update a recipe by ID      | `{ "title": "Updated Pasta" }`                                               |
+| DELETE | `/api/recipes/:id`       | Delete a recipe by ID      | -                                                                            |
+
+Postman Collection URL: [Access Collection](https://www.postman.com/)
+
 Base URL:
 
 http://localhost:5000/api/recipes
