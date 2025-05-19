@@ -101,7 +101,7 @@ http://localhost:5000/api/recipes
 1. Create a Recipe
 
 POST /
-
+https://recipes-app-guvi.vercel.app/api/recipes
 Request Body:
 
 {
@@ -126,7 +126,7 @@ Response:
 2. Get All Recipes
 
 GET /
-
+https://recipes-app-guvi.vercel.app/api/recipes/
 Response:
 
 [
@@ -144,7 +144,7 @@ Response:
 3. Get a Recipe by ID
 
 GET /:id
-
+https://recipes-app-guvi.vercel.app/api/recipes/645d1234abcd567890ef1234
 Response:
 
 {
@@ -160,7 +160,7 @@ Response:
 4. Update a Recipe by ID
 
 PUT /:id
-
+https://recipes-app-guvi.vercel.app/api/recipes/645d1234abcd567890ef1234
 Request Body:
 
 {
@@ -185,7 +185,7 @@ Response:
 5. Delete a Recipe by ID
 
 DELETE /:id
-
+https://recipes-app-guvi.vercel.app/api/recipes/645d1234abcd567890ef1234
 Response:
 
 {
