@@ -67,7 +67,7 @@ npm install
 Create a .env file in the root directory and add the following:
 
 PORT=5000
-MONGO_URI=mongodb+srv://Lakshmi:Chezhiyan@cluster0.asylezr.mongodb.net/recipe-crud-db?retryWrites=true&w=majority
+MONGO_URI=mongodb+srv://Username:PW@cluster0.asylezr.mongodb.net/recipe-crud-db?retryWrites=true&w=majority
 
 4. Run the Application
 
